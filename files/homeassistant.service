@@ -1,0 +1,9 @@
+[Unit]
+Description=Homeassistant
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/hass
+
+[Install]
+WantedBy=multi-user.target
